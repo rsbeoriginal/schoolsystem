@@ -22,7 +22,7 @@
                     <strong>Delhi Public School, NTPC Farakka</strong></p>
                 <p class="desc1">
                     Delhi Public School, NTPC Farakka was established in 1993 inside NTPC Township, Farakka, Murshidabad, West Bengal. It is run by the Delhi Public School Society, New Delhi in association with NTPC Farakka. It is the first Delhi Public School to have been established in the state of West Bengal. It offers schooling from Nursery to class-XII. The school has a 5-acre fully fenced campus at the far end of NTPC Township beside the tributary of river Ganges.The school is well- connected to NH-34 and nearby townships of NTPC and FBP.</p>
-                <a class="btn btn-primary" href="#"><span>Read more</span><img alt="" src="images/more_arrow.png" /></a>
+                <a class="btn btn-primary" href="about.aspx"><span>Read more</span><img alt="" src="images/more_arrow.png" /></a>
             </div>
             <div class="col_1_of_3 span_1_of_3">
                 <div class="title-img1">
@@ -35,11 +35,10 @@
                     <div class="clear">
                     </div>
                 </div>
-                <p class="desc-middle">
-                    <strong>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</strong></p>
                 <p class="desc1">
-                    &#39;Put Passion, Zeal and Enthusiasm into everything you do&#39; - a reality that strikes us time and again, each time a task is taken up at hand. With dynamic changes in the contemporary world, we need to prove our mettle by presence and performance.</p>
-                <a class="btn btn-primary1" href="#"><span>Read more</span><img alt="" src="images/more_arrow.png" /></a>
+                    &#39;Put Passion, Zeal and Enthusiasm into everything you do&#39; - a reality that strikes us time and again, each time a task is taken up at hand. With dynamic changes in the contemporary world, we need to prove our mettle by presence and performance.<br />
+                    <span style="color: rgb(85, 85, 85); font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 22.1px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(253, 244, 232);">It is the reciprocation between the teacher and the taught that makes a building a school. School life - a reservoir of talent and fervor is a prized possession that a child loves to treasure throughout. A DPSite learns over the years in school, that in-spite of surface tension, one must strive to remain at the top.</span></p>
+                <a class="btn btn-primary1" href="PrincipalMessage.aspx"><span>Read more</span><img alt="" src="images/more_arrow.png" /></a>
             </div>
             <div class="col_1_of_3 span_1_of_3" style="overflow:hidden">
                 <div class="title-img2">

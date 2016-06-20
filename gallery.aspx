@@ -25,15 +25,12 @@
 						<a href="gallery/principals.aspx" class="swipebox" title="Image Title"> <img src="images/pic7.jpg" alt=""><span class="zoom-icon"></span>
 						<h4>Principals</h4>
                         </a>
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient.</p>
-						<a href="#" class="link">Read More</a>
 					</div>
 					<div class="grid_1_of_4 images_1_of_4">
 						<a href="gallery/inaugration.aspx" class="swipebox" title="Image Title"> <img src="gallery/inaugration/1.jpg" alt=""><span class="zoom-icon"></span>
 						<h4>Inaugration</h4>
                         </a>
-						<p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient.</p>
-						<a href="#" class="link">Read More</a>
+						
 					</div>
 					<div class="clear"></div> 
 		   		</div>

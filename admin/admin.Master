@@ -21,11 +21,11 @@
 					<div class="header_top">
 				     	<div class="menu">
 				     		<ul>
-						    	<li class="active"><a href="default.aspx">Home</a></li>
-						    	<li><a href="about.aspx">About</a></li>
-						    	<li><a href="PrincipalMessage.aspx">Principal's Message</a></li>
-						    	<li><a href="gallery.aspx">Gallery</a></li>
-						    	<li><a href="contact.html">Contact</a></li>
+						    	<li class="active"><a href="../default.aspx">Home</a></li>
+						    	<li><a href="../about.aspx">About</a></li>
+						    	<li><a href="../PrincipalMessage.aspx">Principal's Message</a></li>
+						    	<li><a href="../gallery.aspx">Gallery</a></li>
+						    	<li><a href="../contact.html">Contact</a></li>
 						    	<div class="clear"></div>
 			     			</ul>
 				     	</div>

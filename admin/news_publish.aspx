@@ -25,7 +25,15 @@
 						    	<span>
                                 <label>Content</label></span>
 						    	<span><asp:TextBox ID="txt_content" runat="server"></asp:TextBox></span>
-						    </div>						  
+						    </div>
+                    <div>
+                        <span><label>Status</label></span>
+                        <span>
+                            <asp:DropDownList ID="drop_status" runat="server">
+                                <asp:ListItem Selected="True">SHOW</asp:ListItem>
+                                <asp:ListItem>URGENT</asp:ListItem>
+                        </asp:DropDownList></span>
+                    </div>				  
 						   <div>
 						   		<span><asp:Button ID="bt_submit" runat="server" Text="Submit" OnClick="bt_submit_Click" /></span>
 						  </div>
@@ -33,8 +41,8 @@
                 </div>
             </div>
             <div class="col_1_of_3 span_1_of_3">
-                <span><a href="news_publish.aspx">Publish News</a></span>
-                <span><a href="news_list.aspx">List all news</a></span>
+                <div><span><a href="news_publish.aspx">Publish News</a></span></div>
+                <div><span><a href="news_list.aspx">List all news</a></span></div>
             </div>
             <div class="clear">
             </div>
