@@ -5,6 +5,7 @@
             width: 100%;
         }
     </style>
+    <title>House Results</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="main">

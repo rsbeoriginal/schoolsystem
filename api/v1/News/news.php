@@ -16,7 +16,7 @@ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //getAllNews
 function getAllNews(){
 	global $conn;
-	$sql_comm="SELECT * FROM news WHERE status NOT LIKE 'HIDE' ORDER BY id DESC";
+	$sql_comm="SELECT * FROM news";
 	$result=$conn->query($sql_comm);	
 	$json = array();
 	$json_array= array();

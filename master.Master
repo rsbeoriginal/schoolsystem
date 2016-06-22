@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>    
+<!--    <title></title>    -->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -26,6 +26,11 @@
 						    	<li><a href="PrincipalMessage.aspx">Principal's Message</a></li>
 						    	<li><a href="gallery.aspx">Gallery</a></li>
 						    	<li><a href="HouseResults.aspx">House Results</a></li>
+                                <li><a href="Alumni.aspx">Alumni</a></li>
+                                <li><a href="TC.aspx">Transfer Certificate</a></li>
+                                <li><a href="HouseCompetitions.aspx">Inter-House Competitions</a></li>
+                                <li><a href="Academic.aspx">Academic</a></li>
+                                 <li><a href="Admission.aspx">Admission</a></li>
 						    	<div class="clear"></div>
 			     			</ul>
 				     	</div>
@@ -40,7 +45,7 @@
 		     	</div>
 			     <div class="header-bottom">
 					 <div class="logo">
-						<h1><a href="default.aspx">Guidance</a></h1>
+						<h1><a href="default.aspx">Delhi Public School,NTPC Farakka</a></h1>
 					 </div>					
 					<div class="clear"></div> 
 				</div>
@@ -53,7 +58,7 @@
 			<div class="main-top">
                 <div class="clear">
                     <marquee direction="left" scroll="continuous" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="120">
-                            <asp:Label ID="l_urgent" runat="server" Text="URGENT!!" ForeColor="Red"/>
+                            <asp:Label ID="l_urgent" runat="server" Text="URGENT!!" ForeColor="Red" Font-Bold="True" />
                      </marquee>
                     
                 </div>
