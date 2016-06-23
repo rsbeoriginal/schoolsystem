@@ -25,7 +25,8 @@
 						    	<li><a href="news_publish.aspx">News</a></li>
 						    	<li><a href="houseresults_publish.aspx">House Results</a></li>
 						    	<li><a href="HouseCompetition.aspx">Inter-House Competitions</a></li>
-                                 <li><a href="TC_publish.aspx">Transfer Certificate</a></li>						    	
+                                 <li><a href="TC_publish.aspx">Transfer Certificate</a></li>
+                                 <li><a href="Department.aspx">Department</a></li>
 						    	<div class="clear"></div>
 			     			</ul>
 				     	</div>

@@ -22,15 +22,16 @@
 				     	<div class="menu">
 				     		<ul>
 						    	<li class="active"><a href="default.aspx">Home</a></li>
-						    	<li><a href="about.aspx">About</a></li>
+                                <li><a href="Academic.aspx">Academic</a></li>
+                                <li><a href="Admission.aspx">Admission</a></li>						    	
 						    	<li><a href="PrincipalMessage.aspx">Principal's Message</a></li>
 						    	<li><a href="gallery.aspx">Gallery</a></li>
-						    	<li><a href="HouseResults.aspx">House Results</a></li>
+						    	<li><a href="HouseCompetitions.aspx">Inter-House Competitions</a></li>                                
+                                <li><a href="HouseResults.aspx">House Results</a></li>                                
+                                <li><a href="TC.aspx">Transfer Certificate</a></li>                                
+                                <li><a href="Department.aspx">Department</a></li>
                                 <li><a href="Alumni.aspx">Alumni</a></li>
-                                <li><a href="TC.aspx">Transfer Certificate</a></li>
-                                <li><a href="HouseCompetitions.aspx">Inter-House Competitions</a></li>
-                                <li><a href="Academic.aspx">Academic</a></li>
-                                 <li><a href="Admission.aspx">Admission</a></li>
+                                <li><a href="about.aspx">About</a></li>
 						    	<div class="clear"></div>
 			     			</ul>
 				     	</div>
@@ -45,7 +46,8 @@
 		     	</div>
 			     <div class="header-bottom">
 					 <div class="logo">
-						<h1><a href="default.aspx">Delhi Public School,NTPC Farakka</a></h1>
+						<div class="col_1_of_3"><img src="images/dps_logo.png"/></div>                         
+                         <div><h1><a href="default.aspx">Delhi Public School,NTPC Farakka</a></h1></div>
 					 </div>					
 					<div class="clear"></div> 
 				</div>

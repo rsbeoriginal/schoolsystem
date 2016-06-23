@@ -1,13 +1,14 @@
 <?php
 
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'school');
+define('DB_USERNAME', 'rishi');
+define('DB_PASSWORD', 'vissr@0797');
+define('DB_HOST', 'schoolsystem.database.windows.net');
+define('DB_NAME', 'School');
 
 global $conn;
 try {
-$conn = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USERNAME,DB_PASSWORD);
+//$conn = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USERNAME,DB_PASSWORD);
+$conn = new PDO ("sqlsrv:server = ".DB_HOST.";Database = ".DB_NAME, DB_USERNAME,DB_PASSWORD);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }catch(PDOException $e){	
 	die('notconnected '.$e->getMessage());
@@ -16,7 +17,7 @@ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //getAllNews
 function getAllNews(){
 	global $conn;
-	$sql_comm="SELECT * FROM news";
+	$sql_comm="SELECT * FROM news WHERE status NOT LIKE 'HIDE' ORDER BY id DESC";
 	$result=$conn->query($sql_comm);	
 	$json = array();
 	$json_array= array();
