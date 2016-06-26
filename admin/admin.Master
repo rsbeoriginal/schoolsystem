@@ -27,6 +27,7 @@
 						    	<li><a href="HouseCompetition.aspx">Inter-House Competitions</a></li>
                                  <li><a href="TC_publish.aspx">Transfer Certificate</a></li>
                                  <li><a href="Department.aspx">Department</a></li>
+                                 <li><a href="TestSchedule.aspx">Test Schedule</a></li>
 						    	<div class="clear"></div>
 			     			</ul>
 				     	</div>
@@ -42,7 +43,10 @@
 		     	</div>
 			     <div class="header-bottom">
 					 <div class="logo">
-						<h1><a href="default.aspx">Guidance</a></h1>
+						<div class="col_1_of_3"><img src="../images/dps_logo.png"/></div>                         
+                         <div><h1><a href="default.aspx">Delhi Public School,NTPC Farakka</a></h1>
+                         <div style="height:80px;width=210px;"><a href='https://play.google.com/store/apps/details?id=com.rsp.dropball&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="80px" width="210px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a></div>
+                        </div>
 					 </div>					
 					<div class="clear"></div> 
 				</div>
@@ -60,6 +64,7 @@
 		</div>
 	    <div class="wrap">
 		   <div class="copy-right">
+               <p>Developed by <a href="#"> Rishi Sharma</a></p>
 			</div>
 		</div>
 	</div>

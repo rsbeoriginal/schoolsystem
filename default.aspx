@@ -85,7 +85,7 @@
                         </SelectParameters>
                     </asp:SqlDataSource>
                 </div>
-                <a class="btn btn-primary2" href="#"><span>Read more</span><img alt="" src="images/more_arrow.png" /></a>
+                <a class="btn btn-primary2" href="News.aspx#news"><span>Read more</span><img alt="" src="images/more_arrow.png" /></a>
             </div>
             <div class="clear">
             </div>
