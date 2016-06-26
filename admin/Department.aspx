@@ -87,7 +87,54 @@
                             </div>
                             
 					    </div>  
-                          
+                     <div class="clear"></div>
+                    <div><span><label>List of Department Files</label></span>
+                        <span style="font-size:larger;align-content:center;">
+                            <asp:GridView ID="GridView2" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource3">
+                                <AlternatingRowStyle BackColor="White" />
+                                <Columns>
+                                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
+                                    <asp:BoundField DataField="id" HeaderText="id" ReadOnly="True" SortExpression="id" />
+                                    <asp:BoundField DataField="department_name" HeaderText="department_name" SortExpression="department_name" />
+                                    <asp:BoundField DataField="file_name" HeaderText="file_name" SortExpression="file_name" />
+                                    <asp:BoundField DataField="description" HeaderText="description" SortExpression="description" />
+                                </Columns>
+                                <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
+                                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+                                <SortedAscendingCellStyle BackColor="#FDF5AC" />
+                                <SortedAscendingHeaderStyle BackColor="#4D0000" />
+                                <SortedDescendingCellStyle BackColor="#FCF6C0" />
+                                <SortedDescendingHeaderStyle BackColor="#820000" />
+                        </asp:GridView>
+                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [DepartmentFileList] WHERE [id] = @original_id AND (([department_name] = @original_department_name) OR ([department_name] IS NULL AND @original_department_name IS NULL)) AND (([file_name] = @original_file_name) OR ([file_name] IS NULL AND @original_file_name IS NULL)) AND (([description] = @original_description) OR ([description] IS NULL AND @original_description IS NULL))" InsertCommand="INSERT INTO [DepartmentFileList] ([id], [department_name], [file_name], [description]) VALUES (@id, @department_name, @file_name, @description)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT * FROM [DepartmentFileList]" UpdateCommand="UPDATE [DepartmentFileList] SET [department_name] = @department_name, [file_name] = @file_name, [description] = @description WHERE [id] = @original_id AND (([department_name] = @original_department_name) OR ([department_name] IS NULL AND @original_department_name IS NULL)) AND (([file_name] = @original_file_name) OR ([file_name] IS NULL AND @original_file_name IS NULL)) AND (([description] = @original_description) OR ([description] IS NULL AND @original_description IS NULL))">
+                            <DeleteParameters>
+                                <asp:Parameter Name="original_id" Type="Int32" />
+                                <asp:Parameter Name="original_department_name" Type="String" />
+                                <asp:Parameter Name="original_file_name" Type="String" />
+                                <asp:Parameter Name="original_description" Type="String" />
+                            </DeleteParameters>
+                            <InsertParameters>
+                                <asp:Parameter Name="id" Type="Int32" />
+                                <asp:Parameter Name="department_name" Type="String" />
+                                <asp:Parameter Name="file_name" Type="String" />
+                                <asp:Parameter Name="description" Type="String" />
+                            </InsertParameters>
+                            <UpdateParameters>
+                                <asp:Parameter Name="department_name" Type="String" />
+                                <asp:Parameter Name="file_name" Type="String" />
+                                <asp:Parameter Name="description" Type="String" />
+                                <asp:Parameter Name="original_id" Type="Int32" />
+                                <asp:Parameter Name="original_department_name" Type="String" />
+                                <asp:Parameter Name="original_file_name" Type="String" />
+                                <asp:Parameter Name="original_description" Type="String" />
+                            </UpdateParameters>
+                        </asp:SqlDataSource>
+                        </span>
+                    </div>
+
                 </div>
                 
             </div>
