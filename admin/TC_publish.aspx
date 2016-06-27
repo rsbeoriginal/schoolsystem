@@ -32,13 +32,25 @@
                           <asp:TextBox ID="txt_admn_no" runat="server"></asp:TextBox>
                           </span></div>
                       <div><span>
-                          <asp:AjaxFileUpload ID="file_upload" runat="server" OnUploadComplete="upload_complete"/>
+                          <asp:FileUpload ID="FileUpload1" runat="server" />
                       <div><span>
                           <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
                           </span></div>
 				  </div>
-  				</div>				
+  				</div>		
+                    			
 				 <div class="clear"></div> 
-			  </div>			  
+			  </div>
+                    <div class="col_1_of_3 span_1_of_3">
+                        <div class="contact-form" >
+                            
+                            <div><span><asp:Button ID="Button2" runat="server" Text="TC Publish" PostBackUrl="~/admin/TC_publish.aspx" /></span></div><br />
+                            <div><span><asp:Button ID="Button3" runat="server" Text="TC List" PostBackUrl="~/admin/TC_list.aspx" /></span></div><br />
+                            
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>			  
 			</div>
+                </span>
 </asp:Content>

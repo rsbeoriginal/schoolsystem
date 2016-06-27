@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="gallery.Master" AutoEventWireup="true" CodeBehind="principals.aspx.cs" Inherits="School.WebForm6" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/master.Master" AutoEventWireup="true" CodeBehind="principals.aspx.cs" Inherits="School.WebForm6" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!------ Light Box ------>
 <script src="../js/jquery.min.js"></script> 

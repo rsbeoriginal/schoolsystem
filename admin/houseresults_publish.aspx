@@ -51,8 +51,8 @@
                 </div>
             </div>
             <div class="col_1_of_3 span_1_of_3">
-                <span><a href="news_publish.aspx">Publish News</a></span>
-                <span><a href="news_list.aspx">List all news</a></span>
+                <div><span><a href="../admin/houseresults_publish.aspx">Publish House Results</a></span></div>
+                <div><span><a href="../admin/houseresults_list.aspx">List all House Results</a></span></div>
             </div>
             <div class="clear">
             </div>

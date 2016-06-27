@@ -21,18 +21,18 @@
 					<div class="header_top">
 				     	<div class="menu">
 				     		<ul>
-						    	<li class="active"><a href="default.aspx">Home</a></li>
-                                <li><a href="Academic.aspx">Academic</a></li>
-                                <li><a href="Admission.aspx">Admission</a></li>						    	
-						    	<li><a href="PrincipalMessage.aspx">Principal's Message</a></li>
-						    	<li><a href="gallery.aspx">Gallery</a></li>
-						    	<li><a href="TestSchedule.aspx">Test Schedule</a></li>
-                                <li><a href="HouseCompetitions.aspx">Inter-House Competitions</a></li>
-                                <li><a href="HouseResults.aspx">House Results</a></li>                                
-                                <li><a href="TC.aspx">Transfer Certificate</a></li>                                
-                                <li><a href="Department.aspx">Department</a></li>
-                                <li><a href="Alumni.aspx">Alumni</a></li>
-                                <li><a href="about.aspx">About</a></li>	
+						    	<li><a href="../default.aspx">Home</a></li>
+                                <li><a href="../Academic.aspx">Academic</a></li>
+                                <li><a href="../Admission.aspx">Admission</a></li>						    	
+						    	<li><a href="../PrincipalMessage.aspx">Principal's Message</a></li>
+						    	<li><a href="../gallery.aspx">Gallery</a></li>
+						    	<li><a href="../TestSchedule.aspx">Test Schedule</a></li>
+                                <li><a href="../HouseCompetitions.aspx">Inter-House Competitions</a></li>
+                                <li><a href="../HouseResults.aspx">House Results</a></li>                                
+                                <li><a href="../TC.aspx">Transfer Certificate</a></li>                                
+                                <li><a href="../Department.aspx">Department</a></li>
+                                <li><a href="../Alumni.aspx">Alumni</a></li>
+                                <li><a href="../about.aspx">About</a></li>	
                                  <div class="clear"></div>					    	
 			     			</ul>
                              
@@ -48,8 +48,8 @@
 		     	</div>
 			     <div class="header-bottom">
 					 <div class="logo">
-						<div class="col_1_of_3"><img src="images/dps_logo.png"/></div>                         
-                         <div><h1><a href="default.aspx">Delhi Public School,NTPC Farakka</a></h1>
+						<div class="col_1_of_3"><img src="../images/dps_logo.png"/></div>                         
+                         <div><h1><a href="../default.aspx">Delhi Public School, NTPC Farakka</a></h1>
                          <div style="height:80px;width=210px;"><a href='https://play.google.com/store/apps/details?id=com.rsp.dropball&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="80px" width="210px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a></div>
                         </div>
 					 </div>					
@@ -81,5 +81,6 @@
 	</div>
     
     </form>
+    <script type="text/javascript" src="js/header_link_active.js"></script>
 </body>
 </html>

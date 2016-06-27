@@ -42,6 +42,7 @@ function getTestbyClass($class){
 	$sql_comm="SELECT id,date,".$class." FROM MondayTestSchedule";
 	$result=$conn->query($sql_comm);	
 	$json = array();
+	$json_array= array();
 	if($result->rowCount() == NULL) {		
 		$json['error']='id not found';
 		http_response_code(400);
@@ -50,9 +51,9 @@ function getTestbyClass($class){
 		$json['id']=$row['id'];
 		$json['date']=$row['date'];
 		$json[$class]=$row[$class];		
-		
+		array_push($json_array, $json);
  	}
-	echo json_encode($json);
+	echo json_encode(array_values($json_array));
 }
 
 if(isset($_GET['function'])){
